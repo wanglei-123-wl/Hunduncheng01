@@ -1419,7 +1419,7 @@ GameObject:
   - component: {fileID: 1936154148}
   - component: {fileID: 1936154147}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: "\u767B\u5F55\u754C\u9762"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
