@@ -3753,6 +3753,7 @@ GameObject:
   - component: {fileID: 1936154147}
   - component: {fileID: 1936154151}
   - component: {fileID: 1936154152}
+  - component: {fileID: 1936154153}
   m_Layer: 0
   m_Name: LoginPanel
   m_TagString: Untagged
@@ -3877,6 +3878,23 @@ MonoBehaviour:
   ConfirmPasswordInput: {fileID: 1306897934}
   RegisterButton: {fileID: 1640118483}
   MessageText: {fileID: 677669279}
+--- !u!114 &1936154153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936154146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ea81b3c1e14ee4e9b0788b660b6f6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RegisterServerClient
+  Login: {fileID: 484995354}
+  Register: {fileID: 377050951}
+  RegisterButton: {fileID: 1640118483}
+  MessageText: {fileID: 677669279}
+  RegisterUrl: http://127.0.0.1:8080/api/register
 --- !u!1 &1939417184
 GameObject:
   m_ObjectHideFlags: 0
